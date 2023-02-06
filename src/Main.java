@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         EmployeeBook eBook = new EmployeeBook();
-
         System.out.println("Полные данные сотрудников:");
         eBook.printList();
         System.out.println("\nСписок Ф.И.О. сотрудников:");
