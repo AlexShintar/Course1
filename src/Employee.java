@@ -32,7 +32,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return fullName + ", id: " + id + ". Отдел: " + department + ". Оклад: " + String.format("%.2f",salary);
+        return fullName + ", id:" + id + ". Отдел: " + department + ". Оклад: " + String.format("%.2f", salary);
     }
 
     public String getFullName() {
